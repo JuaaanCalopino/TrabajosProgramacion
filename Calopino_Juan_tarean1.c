@@ -1,3 +1,5 @@
+//transformalo a c por favor
+
 #include <stdio.h>
 int main(){
     //lo de arriba es la biblioteca
@@ -12,20 +14,20 @@ double doble;
 printf("Holaaaaa, bienvenidoo");
 //printf sirve para mostrar el texto al usuario que utilice lo que hacemos
 
-printf( "Ingrese un numero entero" );
+printf( "Ingrese un numero entero: " );
 scanf( "%d", &entero );
 // scanf ayuda que cuando ingrese un valor entero, lo almacena en su grupo de enteros
 
-printf( "Ingresa un caracter" );
+printf( "Ingresa un caracter: " );
 scanf("%c", &caracter);
 //repite lo mismo que arriba solo que en caracter
 
-printf ("Ya mismo acabas!!, porfavor ingresa un flotante");
+printf ("Ya mismo acabas!!, porfavor ingresa un flotante: ");
 scanf("%f", flotante);
 
 
 
-printf("Por ultimo ingresa un valor de mayor presicion");
+printf("Por ultimo ingresa un valor de mayor presicion: ");
 scanf("%lf", &doble);
 
 //POR RECALCAR QUE "c,d,lf,f" son abreviaturas que usa este lenguaje para referirse a lo que escribimos
